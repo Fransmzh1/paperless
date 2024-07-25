@@ -1,0 +1,5 @@
+PAPERLESS_URL=https://paperless.example.com
+PAPERLESS_SECRET_KEY=change-me
+PAPERLESS_TIME_ZONE=Asia/Jakarta
+PAPERLESS_OCR_LANGUAGE=eng
+POSTGRES_PASSWORD=password_database
