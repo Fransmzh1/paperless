@@ -6,15 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 def call_dms():
-    """
-    Calls an external service using the POST method.
-
-    :param url: The URL of the external servisce.
-    :param data: The data to be sent in the POST request (typically a dictionary).
-    :param headers: Optional headers to include in the request.
-    :return: Response object from the request.
-    """
-
     url = "https://dms.isinovasi.co.id/api/documents/9/"
     dms_cred = os.environ["DMS_CRED"]
     headers = {"Authorization": dms_cred}
